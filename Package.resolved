@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "JJLISO8601DateFormatter",
-        "repositoryURL": "https://github.com/michaeleisel/JJLISO8601DateFormatter",
-        "state": {
-          "branch": null,
-          "revision": "de422afd9a47b72703c30a81423c478337191390",
-          "version": "0.1.6"
-        }
-      },
-      {
-        "package": "ZippyJSONCFamily",
-        "repositoryURL": "https://github.com/michaeleisel/ZippyJSONCFamily",
-        "state": {
-          "branch": null,
-          "revision": "8abdd7a5e943afe68e7b03fdaa63b21c042a3893",
-          "version": "1.2.9"
-        }
+  "pins" : [
+    {
+      "identity" : "jjliso8601dateformatter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/michaeleisel/JJLISO8601DateFormatter",
+      "state" : {
+        "revision" : "de422afd9a47b72703c30a81423c478337191390",
+        "version" : "0.1.6"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "zippyjsoncfamily",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miguel-batista/ZippyJSONCFamily",
+      "state" : {
+        "branch" : "master",
+        "revision" : "aff0fd7b7a3ec81f4dc906a6c381c7e7f1777bb9"
+      }
+    }
+  ],
+  "version" : 2
 }
